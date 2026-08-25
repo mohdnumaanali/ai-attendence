@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Attendance Dashboard</title>
+</head>
+<body>
+  <h1>Smart Attendance Dashboard</h1>
+  <h2>Faculty Login</h2>
+
+  <form action="attendance.html">
+    <table>
+      <tr>
+        <td><label for="userid">User ID:</label></td>
+        <td><input type="text" id="userid" name="userid" placeholder="Enter User ID" required></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" id="password" name="password" placeholder="Enter Password" required></td>
+      </tr>
+      <tr>
+        <td><label for="semester">Select Semester:</label></td>
+        <td>
+          <select id="semester" name="semester" required>
+            <option value="">--Select--</option>
+            <option value="1">Semester 1</option>
+            <option value="2">Semester 2</option>
+            <option value="3">Semester 3</option>
+            <option value="4">Semester 4</option>
+            <option value="5">Semester 5</option>
+            <option value="6">Semester 6</option>
+            <option value="7">Semester 7</option>
+            <option value="8">Semester 8</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="subject">Select Subject:</label></td>
+        <td>
+          <select id="subject" name="subject" required>
+            <option value="">--Select--</option>
+            <option value="python">Python</option>
+            <option value="ai">AI Assisted Coding</option>
+            <option value="datavis">Data Visualization</option>
+            <option value="oscn">Operating System & Computer Networks</option>
+            <option value="webtech">Web Technology Development</option>
+            <option value="cloud">Cloud Computing</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="lecture">Today’s Lecture:</label></td>
+        <td><input type="text" id="lecture" name="lecture" placeholder="Enter Lecture Topic" required></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align:center;">
+          <button type="submit">Login</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

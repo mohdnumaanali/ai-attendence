@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mark Attendance</title>
+</head>
+<body>
+  <h2>Mark Attendance</h2>
+  <form action="student-records.html">
+    <table>
+      <tr>
+        <td><label for="id">Student ID:</label></td>
+        <td><input type="text" id="id" required></td>
+      </tr>
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" required></td>
+      </tr>
+      <tr>
+        <td><label for="status">Status:</label></td>
+        <td>
+          <select id="status">
+            <option>Present</option>
+            <option>Absent</option>
+            <option>Late</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align:center;">
+          <button type="submit">Save</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
