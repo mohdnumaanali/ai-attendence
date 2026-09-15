@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loops Programs</title>
+</head>
+<body>
+    <h2>Loop Output</h2>
+    <script>
+        let n = parseInt(prompt("Enter number of rows:"));
+        let output = "";
+
+        for (let i = 1; i <= n; i++) {
+            for (let j = 1; j <= i; j++) {
+                output += j + " ";
+            }
+            output += "<br>";
+        }
+
+        document.body.innerHTML += output; // safer than document.write
+    </script>
+</body>
+</html>
